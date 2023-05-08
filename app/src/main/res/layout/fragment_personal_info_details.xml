@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".users.PersonalInfoDetails">
+
+    <TextView
+        android:id="@+id/entranceYear"
+        android:layout_width="134dp"
+        android:layout_height="35dp"
+        android:background="@drawable/personal_info_view_border"
+        android:hint="graduate year"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/country"
+        android:layout_width="134dp"
+        android:layout_height="35dp"
+        android:background="@drawable/personal_info_view_border"
+        android:hint="country"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/company"
+        android:layout_width="134dp"
+        android:layout_height="35dp"
+        android:background="@drawable/personal_info_view_border"
+        android:hint="company"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/firstname"
+        android:layout_width="134dp"
+        android:layout_height="35dp"
+        android:background="@drawable/personal_info_view_border"
+        android:hint="your name"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/lastname"
+        android:layout_width="134dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/personal_info_view_border"
+        android:hint="your surname"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/graduateYear"
+        android:layout_width="134dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/personal_info_view_border"
+        android:hint="graduate year"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/city"
+        android:layout_width="134dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/personal_info_view_border"
+        android:hint="city"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="134dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/personal_info_view_border"
+        android:hint="phone number"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/editButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Infos"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="136dp"
+        android:layout_height="46dp"
+        android:background="@drawable/personal_info_view_border"
+        android:hint="email"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="148dp"
+        android:layout_height="78dp"
+        android:text="TextView" />
+
+</FrameLayout>
